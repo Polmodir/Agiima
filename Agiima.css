@@ -1,0 +1,24 @@
+
+body {
+  height: 100vh;
+  width: 100vh;
+  padding: none;
+  margin: auto;
+  background-color: black;
+  background-image: url(./Images/borundur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 13.75vw;
+  align-items: center;
+  justify-content: center;
+}
+.book {
+  width: 13.75vw;
+  height: 40vh;
+  border: 3px white solid;
+}
+.book:hover {
+  width: calc(13.75vw * 1.25);
+  height: calc(40vh * 1.25);
+}
